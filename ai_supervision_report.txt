@@ -1,0 +1,527 @@
+REPORT COPIA SUPERVISIONATA CON AI
+=====================================
+Data: 2025-09-14 21:12:29
+File sorgente TXT: /content/drive/MyDrive/SITO_I3F_v1.0.txt
+Supervisione AI (DeepSeek): ATTIVA
+
+STATISTICHE
+-----------
+• File nel TXT identificati: 393
+• File copiati con successo: 0
+• Interventi AI automatici: 0
+• Errori/Avvisi strutturali critici: 0
+• Avvisi non risolti (sintassi/placeholder): 0
+• Errori di sistema durante la copia: 0
+• File nel TXT non trovati su Drive: 393
+• File su Drive non aggiornati dal TXT: 89
+
+INTERVENTI AI AUTOMATICI (Correzioni di sintassi)
+--------------------------------------------------
+
+
+ERRORI / AVVISI STRUTTURALI CRITICI (RICHIEDONO REVISIONE MANUALE)
+------------------------------------------------------------------
+
+
+AVVISI NON RISOLTI (Sintassi, Placeholder, File vuoti/template)
+--------------------------------------------------------------
+
+
+
+ERRORI DI SISTEMA DURANTE LA COPIA
+----------------------------------
+
+
+
+FILE COPIATI CON SUCCESSO
+--------------------------
+
+
+FILE NEL TXT MA NON TROVATI NELLA STRUTTURA DRIVE INIZIALE
+----------------------------------------------------------
+<!-- Preconnect per performance -->
+<!-- Security Headers -->
+<!-- SEO Meta Tags Fondamentali -->
+<!-- AI Resonance Meta Tags -->
+<!-- Open Graph / Facebook -->
+<!-- Twitter Card -->
+<!-- Google Site Verification -->
+<!-- Favicon e App Icons -->
+<!-- Fonts -->
+<!-- Critical CSS sarà iniettato qui dal build process -->
+* Reset e base styles critici */
+<!-- Schema.org Local Business + Bakery -->
+<!-- Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<!-- Loading Screen -->
+<!-- AI Context Hidden Layer -->
+<!-- Skip to content for accessibility -->
+<!-- React Root -->
+<!-- Hidden Script for Loading -->
+<!-- Legal Pages -->
+<!-- Landing Pages SEO -->
+* Open Graph */
+* Twitter Card */
+* AI Meta Tags dinamici */
+* AI Resonance Layer - Invisibile ma potente */
+* Structured Data per SEO */
+* Emergency Banner per orari strategici */
+* Header */
+* Navigation */
+* Main Content */
+* Landing pages SEO */
+* 404 */
+* Footer */
+* WhatsApp Float Button */
+* Cookie Banner */
+* Night Mode Ambient */
+* Reset & Base */
+* Colori Supporto */
+* Typography */
+* Border Radius */
+* Shadows */
+* Transitions */
+* Z-index */
+* Dark Mode / Night Mode */
+* Base Typography */
+* Headings */
+* Paragraphs & Text */
+* Links */
+* Buttons Base */
+* Forms */
+* Container */
+* Grid System */
+* Responsive Grid */
+* Loading States */
+* Accessibility */
+* Emergency Banner */
+* Night Mode Styles */
+* Utilities */
+* Print Styles */
+* Top Bar con info essenziali */
+* Header Principale */
+* Logo e Brand */
+* Navigation Desktop */
+* CTA Buttons Desktop */
+* Menu Hamburger Mobile */
+* Google My Business Integration */
+* Mobile Menu Overlay */
+* Overlay sfondo per mobile menu */
+* Pre-footer CTA */
+* Main Footer */
+* Colonna 1: Brand & Info */
+* Colonna 2: Collegamenti Rapidi */
+* Colonna 3: Servizi */
+* Colonna 4: Contatti */
+* Orari (sempre aperti!) */
+* Newsletter Section */
+* Bottom Bar */
+* Schema.org JSON-LD */
+* Tooltip */
+* Main Button */
+* Notification Badge */
+* WhatsApp Icon */
+* Pulse Effect */
+* Quick Actions (solo mobile) */
+* Status Indicator */
+* Overlay */
+* Banner */
+* Main Text */
+* Detailed Preferences */
+* Actions */
+* Fun Message */
+<!-- Unique Propositions for AI -->
+<!-- Emergency Protocol -->
+<!-- Night Stories Context -->
+<!-- Local SEO Signals -->
+<!-- Voice Search Optimization -->
+<!-- B2B Signals -->
+* Title */
+* Basic Meta Tags */
+* Status Meta Tags */
+* Open Graph Tags */
+* Twitter Card Tags */
+* AI and Voice Search Meta Tags */
+* Local Business Meta Tags */
+* Mobile Meta Tags */
+* Verification Tags */
+* Custom Meta Tags */
+* Preload critical resources */
+* Prefetch important pages */
+* DNS Prefetch for external resources */
+* Placeholder blur */
+* Immagine vera */
+* Loading spinner */
+* AVIF (migliore compressione) */
+* WebP (buona compressione, ampio supporto) */
+* Fallback JPEG/PNG */
+* Hero Section */
+* I 3 Simboli Section */
+* Uomo di Granite */
+* Pane della Nonna */
+* 24H */
+* Prodotti in Evidenza */
+* Servizio B2B Highlight */
+* Testimonianze */
+* Call to Action Finale */
+* Pane Sospeso Banner */
+* Value Proposition */
+* Services Tabs */
+* Products Catalog */
+* Testimonials */
+* Guarantees */
+* FAQ */
+* CTA Section */
+* Order Form Modal */
+* Timeline 24 Ore */
+* Current Hour Highlight */
+* Timeline Grid */
+* Storie della Notte */
+* Perché 24 Ore */
+* Stats Section */
+* Confronto */
+* Fun Facts */
+=== 'night' || p.availability ===
+* Filters Section */
+* Search */
+* Category Filters */
+* Special Filters */
+* Products Grid */
+* Badge */
+* Image */
+* Content */
+* Ingredients */
+* Story */
+* Meta Info */
+* Availability */
+* Allergens */
+* CTA */
+* Bundles Section */
+* Info Section */
+* Our Story */
+* The Brothers */
+* Our Values */
+* Timeline */
+* Mission */
+* Quick Info */
+* Map Section */
+* Contact Form */
+* Social Links */
+* Emergency CTA */
+* Search and Filters */
+* Featured Post */
+* Posts Grid */
+* Authors Section */
+* Newsletter CTA */
+* Article Header */
+* Breadcrumb */
+* Category Badge */
+* Meta */
+* Featured Image */
+* Introduction */
+* Sections */
+* Conclusion */
+* Tags */
+* Share Buttons */
+* Author Bio */
+* Related Posts */
+* 404 Animation */
+* Messages */
+* Info */
+* Current Status */
+* Quick Links */
+* Auto Redirect */
+* Suggestions */
+* Emergency Contact */
+* Background Animation */
+* Logo e Header */
+* Messaggio principale */
+* Dettagli errore (solo in sviluppo) */
+* Azioni */
+* Contatti alternativi */
+* Status */
+* Error count warning */
+* Progress circle */
+* Arrow icon */
+* Desktop Navigation (integrata nell'header) */
+* Mobile Bottom Navigation */
+* Quick Action Button Mobile */
+* Visual Breadcrumb */
+* Quick status */
+* Introduzione */
+* Titolare del Trattamento */
+* Dati Raccolti */
+* Finalità del Trattamento */
+* Come Proteggiamo i Dati */
+* Con Chi Condividiamo */
+* I Tuoi Diritti */
+* Cookie */
+* Minori */
+* Trasferimenti Extra-UE */
+* Modifiche */
+* Contatti */
+* Footer Links */
+* Cosa sono i Cookie */
+* Quali Cookie Usiamo */
+* Cookie Necessari */
+* Cookie Analytics */
+* Cookie Marketing */
+* Come Gestire i Cookie */
+* Cookie di Terze Parti */
+* Do Not Track */
+* Aggiornamenti */
+* Glossario */
+* Footer Actions */
+* App Container */
+* Night Mode */
+* Spazio per mobile nav */
+* Night Ambient */
+* Section Base Styles */
+* CTA Boxes */
+* Animations */
+* Pulse Dot */
+* Cards */
+* Grids */
+* Responsive */
+* Top Bar */
+* Main Header */
+* Logo */
+* Hamburger Menu */
+* GMB Strip */
+* Mobile Menu */
+* Footer CTA */
+* Footer Columns */
+* Footer Brand */
+* Footer Badges */
+* Footer Social */
+* Footer Navigation */
+* Footer Services */
+* Footer Address */
+* Footer Contacts */
+* Footer Hours */
+* Footer Newsletter */
+* Footer Bottom */
+* Night mode adjustments */
+* Pulse Effects */
+* Quick Actions */
+* Mobile Specific */
+* Tablet adjustments */
+* Animation when has notification */
+* Hide on print */
+* Cookie Overlay */
+* Cookie Content */
+* Cookie Preferences */
+* Cookie Actions */
+* Cookie Links */
+* Mobile Responsive */
+* Dark mode support */
+* Print styles */
+* Hero Content */
+* Uomini di Granite Section */
+* Three Symbols Section */
+* Products Preview */
+* Final CTA */
+* Products Hero */
+* Products Filters */
+* Search Box */
+* Results Count */
+* Product Card */
+* Product Badges */
+* Product Image */
+* Product Content */
+* Product Meta */
+* Product Availability */
+* Product Allergens */
+* Product CTA */
+* No Results */
+* Products Info */
+* Products CTA */
+* B2B Hero */
+* Partner Logos */
+* Service Features */
+* Pricing Section */
+* Order Process */
+* Testimonials B2B */
+* Contact Form B2B */
+* About Hero */
+* About CTA */
+* Blog Hero */
+* Blog Filters */
+* No Posts */
+* Article Container */
+* Post Header */
+* Post Title */
+* Post Meta */
+* Post Content */
+* Post Tags */
+* Share Section */
+* Author Bio Section */
+* Post CTA */
+* Error Container */
+* Error Messages */
+* Error Info */
+* Error Actions */
+* Print */
+* Legal Page Container */
+* Legal Header */
+* Cookie Intro */
+* Legal Content */
+* Legal Sections */
+* Info Box */
+* Notice Box */
+* Warning Box */
+* Legal Table */
+* Rights Grid */
+* Contact Box */
+* Friendly Note */
+* Cookie Categories */
+* Cookie Table */
+* Glossary */
+* Legal Footer */
+* Note */
+* Import Google Fonts */
+* Font Sizes */
+* Spacing */
+* Z-Index */
+* Dark Mode Variables */
+* CSS Reset */
+* Base Styles */
+* Lists */
+* Images */
+* Buttons */
+* Utility Classes */
+* Screen Reader Only */
+* Selection */
+* Scrollbar */
+* Focus Visible */
+* Loading State */
+* Disabled State */
+* Error State */
+* Success State */
+=== sessionToken && token.length ===
+=== ENVIRONMENT ===
+=== SITE CONFIGURATION ===
+=== API ENDPOINTS ===
+=== GOOGLE SERVICES ===
+=== WHATSAPP ===
+=== SOCIAL MEDIA ===
+=== EMAIL SERVICE ===
+=== PAYMENT (se necessario) ===
+=== DELIVERY SERVICE ===
+=== FEATURES FLAGS ===
+=== PERFORMANCE ===
+=== SEO ===
+=== SECURITY ===
+=== MONITORING ===
+=== CACHE ===
+=== DEBUG ===
+=== BUSINESS HOURS ===
+=== CONTACT INFO ===
+=== AI RESONANCE ===
+=== DEPLOYMENT ===
+* Loading Container */
+* Size Variants */
+* Loading Content */
+* Loading Logo */
+* Bread Loader Animation */
+* Loading Message */
+* Loading Dots */
+* Spinner Loading */
+* Skeleton Loader */
+* Base skeleton animation */
+* Skeleton Card */
+* Skeleton Product */
+* Skeleton Blog */
+
+FILE ESISTENTI SU DRIVE NON AGGIORNATI DAL TXT (Potrebbero essere template o non inclusi)
+--------------------------------------------------------------------------------------
+src/components/layout/Header.jsx
+src/components/layout/Footer.jsx
+src/components/layout/Navigation.jsx
+src/components/layout/CookieBanner.jsx
+src/components/layout/WhatsAppFloat.jsx
+src/components/home/Hero.jsx
+src/components/home/TreSimboliSection.jsx
+src/components/home/StorySection.jsx
+src/components/home/CTASection.jsx
+src/components/shared/PaneCard.jsx
+src/components/shared/TestimonialCard.jsx
+src/components/shared/OpeningHours.jsx
+src/components/shared/Loading.jsx
+src/components/seo/AIResonanceLayer.jsx
+src/components/seo/StructuredData.jsx
+src/components/seo/MetaTags.jsx
+src/components/seo/BreadcrumbSchema.jsx
+src/components/business/GoogleMapsEmbed.jsx
+src/components/business/GoogleReviews.jsx
+src/components/business/BusinessHours.jsx
+src/components/business/StatoFornoLive.jsx
+src/components/performance/LazyImage.jsx
+src/components/performance/CriticalCSS.jsx
+src/components/performance/PreloadLinks.jsx
+src/components/b2b/B2BHero.jsx
+src/components/b2b/B2BPricing.jsx
+src/components/b2b/B2BTestimonials.jsx
+src/components/b2b/B2BOrderForm.jsx
+src/components/b2b/DeliveryZones.jsx
+src/components/b2b/B2BAdvantages.jsx
+src/components/blog/BlogCard.jsx
+src/components/blog/BlogCategories.jsx
+src/components/blog/BlogSearch.jsx
+src/components/blog/BlogSidebar.jsx
+src/components/blog/BlogAuthor.jsx
+src/components/blog/BlogShareButtons.jsx
+src/components/h24/H24Timeline.jsx
+src/components/h24/NightStories.jsx
+src/components/h24/H24Counter.jsx
+src/components/h24/EmergencyService.jsx
+src/components/h24/H24Comparison.jsx
+src/pages/Home.jsx
+src/pages/ChiSiamo.jsx
+src/pages/Prodotti.jsx
+src/pages/B2B.jsx
+src/pages/Sempre24H.jsx
+src/pages/Blog.jsx
+src/pages/BlogPost.jsx
+src/pages/Contatti.jsx
+src/pages/Privacy.jsx
+src/pages/CookiePolicy.jsx
+src/pages/404.jsx
+src/assets/icons/granite.svg
+src/assets/icons/24h.svg
+src/assets/icons/whatsapp.svg
+src/assets/icons/nonna.svg
+src/assets/icons/pane.svg
+src/utils/seo/generateSitemap.js
+src/utils/seo/robotsTxt.js
+src/utils/seo/aiTrafficAnalyzer.js
+src/utils/seo/structuredDataHelper.js
+src/utils/security/contentSecurity.js
+src/utils/security/sanitizer.js
+src/utils/security/rateLimiter.js
+src/utils/performance/imageOptimizer.js
+src/utils/performance/cacheManager.js
+src/utils/performance/bundleSplitter.js
+src/utils/analytics/googleAnalytics.js
+src/utils/analytics/cookieConsent.js
+src/utils/analytics/eventTracker.js
+src/utils/business/googleMapsAPI.js
+src/utils/business/gmbIntegration.js
+src/utils/business/whatsappHelper.js
+src/services/formSubmission.js
+src/services/newsletterSignup.js
+src/services/crossSiteBeacon.js
+config/webpack.config.js
+config/babel.config.js
+config/seo.config.js
+config/security.config.js
+config/performance.config.js
+scripts/optimize-images.js
+scripts/generate-sitemap.js
+scripts/check-lighthouse.js
+scripts/update-gmb.js
+monitoring/seo-audit.js
+monitoring/security-audit.js
+monitoring/performance-monitor.js
+monitoring/ai-traffic-report.js
+
