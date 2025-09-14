@@ -1,0 +1,475 @@
+
+```scss
+// =============================================================================
+// MAIN.SCSS - STILI PRINCIPALI I 3 FRATELLI PANIFICIO
+// =============================================================================
+
+// =============================================================================
+// RESET CSS MODERNO E OTTIMIZZATO
+// =============================================================================
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  text-rendering: optimizeSpeed;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+// Rimuove animazioni per utenti che preferiscono ridotto movimento
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+// =============================================================================
+// VARIABILI COLORI BRAND I 3 FRATELLI
+// =============================================================================
+:root {
+  // Colori principali del brand
+  --color-granite: #1A1A1A;        // Nero granite - forza e resistenza
+  --color-pane: #8B6F47;           // Marrone pane - autenticità e tradizione
+  --color-farina: #FAF7F2;         // Crema farina - calore e accoglienza
+  --color-forno: #E85D04;          // Rosso forno - energia e passione
+  --color-whatsapp: #25D366;       // Verde WhatsApp - contatto immediato
+
+  // Colori funzionali
+  --color-text: var(--color-granite);
+  --color-background: var(--color-farina);
+  --color-primary: var(--color-pane);
+  --color-accent: var(--color-forno);
+  --color-success: var(--color-whatsapp);
+  --color-border: #E5E5E5;
+
+  // Gradienti brand
+  --gradient-forno: linear-gradient(135deg, var(--color-forno) 0%, #FF6B00 100%);
+  --gradient-pane: linear-gradient(135deg, var(--color-pane) 0%, #A88B5F 100%);
+
+  // Ombre consistenti
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.15);
+  --shadow-forno: 0 4px 15px rgba(232, 93, 4, 0.25);
+}
+
+// =============================================================================
+// TYPOGRAPHY - PLAYFAIR DISPLAY + INTER
+// =============================================================================
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  // Famiglie font
+  --font-heading: 'Playfair Display', serif;    // Per titoli e elementi evocativi
+  --font-body: 'Inter', sans-serif;             // Per testo e interfaccia
+
+  // Scale tipografica mobile-first
+  --text-xs: 0.75rem;    // 12px
+  --text-sm: 0.875rem;   // 14px
+  --text-base: 1rem;     // 16px
+  --text-lg: 1.125rem;   // 18px
+  --text-xl: 1.25rem;    // 20px
+  --text-2xl: 1.5rem;    // 24px
+  --text-3xl: 1.875rem;  // 30px
+  --text-4xl: 2.25rem;   // 36px
+  --text-5xl: 3rem;      // 48px
+
+  // Pesi font
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  // Altezze linea
+  --leading-tight: 1.2;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.8;
+}
+
+// Applicazione font al body
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  font-weight: var(--font-normal);
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+// Stili heading
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-bold);
+  line-height: var(--leading-tight);
+  color: var(--color-granite);
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: var(--text-4xl); }
+h2 { font-size: var(--text-3xl); }
+h3 { font-size: var(--text-2xl); }
+h4 { font-size: var(--text-xl); }
+h5 { font-size: var(--text-lg); }
+h6 { font-size: var(--text-base); }
+
+// Stili paragrafo
+p {
+  margin-bottom: 1rem;
+  line-height: var(--leading-relaxed);
+}
+
+// Link
+a {
+  color: var(--color-primary);
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: var(--color-forno);
+  }
+}
+
+// =============================================================================
+// UTILITY CLASSES - CLASSI PRATICHE E RIUTILIZZABILI
+// =============================================================================
+
+// Layout e spacing
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.container-wide {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Spacing utility
+.mt-0 { margin-top: 0; }
+.mt-1 { margin-top: 0.25rem; }
+.mt-2 { margin-top: 0.5rem; }
+.mt-3 { margin-top: 1rem; }
+.mt-4 { margin-top: 1.5rem; }
+.mt-5 { margin-top: 2rem; }
+.mt-6 { margin-top: 3rem; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-1 { margin-bottom: 0.25rem; }
+.mb-2 { margin-bottom: 0.5rem; }
+.mb-3 { margin-bottom: 1rem; }
+.mb-4 { margin-bottom: 1.5rem; }
+.mb-5 { margin-bottom: 2rem; }
+.mb-6 { margin-bottom: 3rem; }
+
+.p-1 { padding: 0.25rem; }
+.p-2 { padding: 0.5rem; }
+.p-3 { padding: 1rem; }
+.p-4 { padding: 1.5rem; }
+.p-5 { padding: 2rem; }
+.p-6 { padding: 3rem; }
+
+// Text alignment
+.text-left { text-align: left; }
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+// Text color
+.text-granite { color: var(--color-granite); }
+.text-pane { color: var(--color-pane); }
+.text-farina { color: var(--color-farina); }
+.text-forno { color: var(--color-forno); }
+.text-whatsapp { color: var(--color-whatsapp); }
+
+// Background color
+.bg-granite { background-color: var(--color-granite); }
+.bg-pane { background-color: var(--color-pane); }
+.bg-farina { background-color: var(--color-farina); }
+.bg-forno { background-color: var(--color-forno); }
+.bg-whatsapp { background-color: var(--color-whatsapp); }
+
+// Display
+.hidden { display: none; }
+.block { display: block; }
+.inline-block { display: inline-block; }
+.flex { display: flex; }
+.grid { display: grid; }
+
+// Flex utilities
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+// Visibility
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Button utilities
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.375rem;
+  font-weight: var(--font-semibold);
+  text-align: center;
+  transition: all 0.2s ease;
+  border: 2px solid transparent;
+  cursor: pointer;
+  min-height: 44px; // Accessibilità touch
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+.btn-primary {
+  background: var(--gradient-pane);
+  color: white;
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.btn-accent {
+  background: var(--gradient-forno);
+  color: white;
+
+  &:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-forno);
+  }
+}
+
+.btn-whatsapp {
+  background-color: var(--color-whatsapp);
+  color: white;
+
+  &:hover:not(:disabled) {
+    background-color: #128C7E;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid var(--color-pane);
+  color: var(--color-pane);
+
+  &:hover:not(:disabled) {
+    background: var(--color-pane);
+    color: white;
+  }
+}
+
+// =============================================================================
+// MEDIA QUERIES MOBILE-FIRST
+// =============================================================================
+
+// Breakpoints basati su dispositivi comuni
+$breakpoints: (
+  'xs': 375px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 992px,
+  'xl': 1200px,
+  'xxl': 1400px
+);
+
+// Mixin per media queries
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint `#{$breakpoint}` non riconosciuto. Breakpoints disponibili: #{map-keys($breakpoints)}.";
+  }
+}
+
+// Scale tipografica responsive
+@include respond-to('md') {
+  :root {
+    --text-4xl: 2.5rem;   // 40px
+    --text-5xl: 3.5rem;   // 56px
+  }
+
+  h1 { font-size: var(--text-5xl); }
+  h2 { font-size: var(--text-4xl); }
+}
+
+@include respond-to('lg') {
+  :root {
+    --text-5xl: 4rem;     // 64px
+  }
+}
+
+// Container padding responsive
+.container {
+  @include respond-to('md') {
+    padding: 0 2rem;
+  }
+
+  @include respond-to('xl') {
+    padding: 0;
+  }
+}
+
+// Grid utilities responsive
+.grid-1 { grid-template-columns: 1fr; }
+.grid-2 { grid-template-columns: repeat(2, 1fr); }
+.grid-3 { grid-template-columns: repeat(3, 1fr); }
+.grid-4 { grid-template-columns: repeat(4, 1fr); }
+
+@include respond-to('md') {
+  .grid-md-2 { grid-template-columns: repeat(2, 1fr); }
+  .grid-md-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-md-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+@include respond-to('lg') {
+  .grid-lg-3 { grid-template-columns: repeat(3, 1fr); }
+  .grid-lg-4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+// =============================================================================
+// ANIMAZIONI E TRANSIZIONI
+// =============================================================================
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { transform: translateX(-100%); }
+  to { transform: translateX(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s ease-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.3s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s infinite;
+}
+
+// =============================================================================
+// ACCESSIBILITÀ E FOCUS VISIBILE
+// =============================================================================
+.focus-visible {
+  outline: 2px solid var(--color-forno);
+  outline-offset: 2px;
+}
+
+// Nasconde outline solo per mouse users, mantiene per keyboard
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+// =============================================================================
+// PRINT STYLES
+// =============================================================================
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}

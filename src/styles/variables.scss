@@ -1,0 +1,216 @@
+```scss
+// =============================================================================
+// VARIABLES.SCSS - VARIABILI DI SISTEMA I 3 FRATELLI PANIFICIO
+// =============================================================================
+
+// =============================================================================
+// PALETTE COLORI BRAND - I 3 FRATELLI
+// =============================================================================
+
+// COLORI PRIMARI - Simboli fondamentali
+$color-granite: #1A1A1A;          // Nero granite - Uomo di Granite
+$color-pane: #8B6F47;             // Marrone pane - Pane della Nonna
+$color-farina: #FAF7F2;           // Crema farina - Base chiara
+$color-forno: #E85D04;            // Rosso forno - Forno che non dorme
+$color-whatsapp: #25D366;         // Verde WhatsApp - Canale principale
+
+// COLORI SECONDARI - Derivati dalla palette principale
+$color-granite-light: lighten($color-granite, 10%);
+$color-granite-dark: darken($color-granite, 5%);
+$color-pane-light: lighten($color-pane, 15%);
+$color-pane-dark: darken($color-pane, 10%);
+$color-forno-light: lighten($color-forno, 15%);
+$color-forno-dark: darken($color-forno, 10%);
+
+// COLORI FUNZIONALI - Stati e feedback
+$color-success: #4CAF50;          // Successo operazioni
+$color-warning: #FF9800;          // Avvisi importanti
+$color-error: #F44336;            // Errori e problemi
+$color-info: #2196F3;             // Informazioni aggiuntive
+
+// COLORI NEUTRI - Testi e sfondi
+$color-white: #FFFFFF;
+$color-black: #000000;
+$color-gray-100: #F8F9FA;
+$color-gray-200: #E9ECEF;
+$color-gray-300: #DEE2E6;
+$color-gray-400: #CED4DA;
+$color-gray-500: #ADB5BD;
+$color-gray-600: #6C757D;
+$color-gray-700: #495057;
+$color-gray-800: #343A40;
+$color-gray-900: #212529;
+
+// =============================================================================
+// SISTEMA DI SPACING - SCALA 8PX (MOBILE-FIRST)
+// =============================================================================
+
+// UNITÀ BASE - 8px (0.5rem)
+$spacing-unit: 0.5rem;
+
+// SCALA DI SPACING - Moltiplicatori dell'unità base
+$spacing-xxs: $spacing-unit * 0.5;  // 4px
+$spacing-xs: $spacing-unit * 1;     // 8px
+$spacing-sm: $spacing-unit * 2;     // 16px
+$spacing-md: $spacing-unit * 3;     // 24px
+$spacing-lg: $spacing-unit * 4;     // 32px
+$spacing-xl: $spacing-unit * 6;     // 48px
+$spacing-xxl: $spacing-unit * 8;    // 64px
+$spacing-xxxl: $spacing-unit * 12;  // 96px
+
+// SPACING SPECIALI - Per casi specifici
+$spacing-container: $spacing-unit * 4;    // 32px padding container
+$spacing-section: $spacing-unit * 8;      // 64px tra sezioni
+$spacing-element: $spacing-unit * 2;      // 16px tra elementi
+
+// =============================================================================
+// BREAKPOINTS RESPONSIVE - MOBILE-FIRST APPROACH
+// =============================================================================
+
+// BREAKPOINTS BASE - Mobile first (min-width)
+$breakpoint-xs: 0px;      // Extra small devices (default mobile)
+$breakpoint-sm: 576px;    // Small devices (landscape phones)
+$breakpoint-md: 768px;    // Medium devices (tablets)
+$breakpoint-lg: 992px;    // Large devices (desktops)
+$breakpoint-xl: 1200px;   // Extra large devices (large desktops)
+$breakpoint-xxl: 1400px;  // Extra extra large devices
+
+// BREAKPOINTS NAMED - Per chiarezza nel codice
+$mobile: $breakpoint-sm;
+$tablet: $breakpoint-md;
+$desktop: $breakpoint-lg;
+$large-desktop: $breakpoint-xl;
+
+// =============================================================================
+// TIPOGRAFIA - SCALA RESPONSIVA
+// =============================================================================
+
+// FAMIGLIE DI FONT - Performance ottimizzata
+$font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+$font-secondary: 'Georgia', serif; // Per testi evocativi
+
+// PESTI DEI FONT - Varianti disponibili
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// SCALA TIPOGRAFICA MOBILE - Base 16px
+$font-size-xs: 0.75rem;    // 12px
+$font-size-sm: 0.875rem;   // 14px
+$font-size-base: 1rem;     // 16px
+$font-size-lg: 1.125rem;   // 18px
+$font-size-xl: 1.25rem;    // 20px
+$font-size-xxl: 1.5rem;    // 24px
+$font-size-xxxl: 2rem;     // 32px
+
+// SCALA TIPOGRAFICA DESKTOP - Scaling progressivo
+$font-size-xs-desktop: 0.875rem;   // 14px
+$font-size-sm-desktop: 1rem;       // 16px
+$font-size-base-desktop: 1.125rem; // 18px
+$font-size-lg-desktop: 1.25rem;    // 20px
+$font-size-xl-desktop: 1.5rem;     // 24px
+$font-size-xxl-desktop: 2rem;      // 32px
+$font-size-xxxl-desktop: 2.5rem;   // 40px
+
+// ALTEZZE DI RIGA - Per leggibilità ottimale
+$line-height-tight: 1.2;
+$line-height-normal: 1.5;
+$line-height-loose: 1.8;
+
+// =============================================================================
+// Z-INDEX SCALE - GESTIONE PROFONDITÀ
+// =============================================================================
+
+// LIVELLI Z-INDEX - Sistema gerarchico
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+$z-index-toast: 1080;
+$z-index-max: 9999;
+
+// =============================================================================
+// BORDER RADIUS - CONSISTENZA VISIVA
+// =============================================================================
+
+// RADIUS STANDARD - Coerenza throughout
+$border-radius-sm: 0.25rem;   // 4px
+$border-radius: 0.5rem;       // 8px
+$border-radius-lg: 1rem;      // 16px
+$border-radius-xl: 2rem;      // 32px
+$border-radius-pill: 50rem;   // Per elementi pill-shaped
+
+// =============================================================================
+// SHADOWS - PROFONDITÀ E ELEVAZIONE
+// =============================================================================
+
+// SCALA DI OMBRE - Per depth visiva
+$shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+// =============================================================================
+// TRANSITIONS - ANIMAZIONI PERFORMANTI
+// =============================================================================
+
+// TIMING FUNCTIONS - Curve di animazione
+$transition-timing-default: ease;
+$transition-timing-sharp: cubic-bezier(0.4, 0, 0.6, 1);
+$transition-timing-accelerate: cubic-bezier(0.4, 0, 1, 1);
+$transition-timing-decelerate: cubic-bezier(0, 0, 0.2, 1);
+
+// DURATE STANDARD - Coerenza animazioni
+$transition-duration-fast: 150ms;
+$transition-duration-normal: 250ms;
+$transition-duration-slow: 350ms;
+
+// =============================================================================
+// LAYOUT CONSTANTS - DIMENSIONI FISSE
+// =============================================================================
+
+// DIMENSIONI LAYOUT - Consistency throughout
+$header-height-mobile: 4rem;     // 64px
+$header-height-desktop: 5rem;    // 80px
+$footer-height: auto;
+$container-max-width: 1200px;
+$sidebar-width: 280px;
+
+// =============================================================================
+// MIXIN UTILITY - PER RIUTILIZZO
+// =============================================================================
+
+// BREAKPOINT MIXIN - Mobile-first responsive
+@mixin respond-above($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+// DARK MODE MIXIN - Future-proof
+@mixin dark-mode {
+  @media (prefers-color-scheme: dark) {
+    @content;
+  }
+}
+
+// HIGH CONTRAST MIXIN - Accessibility
+@mixin high-contrast {
+  @media (prefers-contrast: high) {
+    @content;
+  }
+}
+
+// REDUCED MOTION MIXIN - Accessibility
+@mixin reduced-motion {
+  @media (prefers-reduced-motion: reduce) {
+    @content;
+  }
+}
+```
