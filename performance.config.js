@@ -1,0 +1,3 @@
+module.exports = {
+  // Performance configuration
+};
